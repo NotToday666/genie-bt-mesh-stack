@@ -4,7 +4,7 @@ Genie BT mesh stack is a set of Bluetooth mesh SDK for tmall Genie ecology.
 
 ## Architecture Overview
 
-Genie BT mesh stack supports multiple chip manufacturer, including telink，MTK，Nordic.
+Genie BT mesh stack supports multiple chip manufacturer, including telink，MTK，Nordic, Beken.
 
 
 # Documentation

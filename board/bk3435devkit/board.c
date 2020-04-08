@@ -41,7 +41,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
 		.partition_length		   = 0x072000, // 429KB = 0x6B400+CRC = (0x6B400/16)*17
 		.partition_options		   = PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
 	},
-	[HAL_PARTITION_PARAMETER_3] =
+	[HAL_PARTITION_PARAMETER_1] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
 		.partition_description		= "PARAMETER_3",
@@ -49,7 +49,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
 	},
-    [HAL_PARTITION_CUSTOM_2] =
+    [HAL_PARTITION_PARAMETER_2] =
     {
         .partition_owner            = HAL_FLASH_EMBEDDED,
         .partition_description      = "CUSTOM_2",
@@ -57,7 +57,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
         .partition_length           = 0x1000, // 4k bytes
         .partition_options          = PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
     },
-	[HAL_PARTITION_PARAMETER_1] =
+	[HAL_PARTITION_PARAMETER_3] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
 		.partition_description		= "PARAMETER1",
@@ -65,7 +65,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
 	},
-	[HAL_PARTITION_CUSTOM_1] =
+	[HAL_PARTITION_PARAMETER_4] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
 		.partition_description		= "CUSTOM_1",
@@ -109,7 +109,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
 		.partition_length		   = 0x033000, // 191.5KB = 0x2FE00+CRC = (0x2FE00/16)*17
 		.partition_options		   = PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
 	},
-	[HAL_PARTITION_PARAMETER_3] =
+	[HAL_PARTITION_PARAMETER_1] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
 		.partition_description		= "PARAMETER_3",
@@ -117,7 +117,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
 	},
-    [HAL_PARTITION_CUSTOM_2] =
+    [HAL_PARTITION_PARAMETER_2] =
     {
         .partition_owner            = HAL_FLASH_EMBEDDED,
         .partition_description      = "CUSTOM_2",
@@ -125,7 +125,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
         .partition_length           = 0x1000, // 4k bytes
         .partition_options          = PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
     },
-	[HAL_PARTITION_PARAMETER_1] =
+	[HAL_PARTITION_PARAMETER_3] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
 		.partition_description		= "PARAMETER1",
@@ -133,7 +133,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
 	},
-	[HAL_PARTITION_CUSTOM_1] =
+	[HAL_PARTITION_PARAMETER_4] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
 		.partition_description		= "CUSTOM_1",

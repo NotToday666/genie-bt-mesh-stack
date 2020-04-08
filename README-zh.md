@@ -4,7 +4,7 @@ Genie BT mesh Stack是一套适用于天猫精灵生态的蓝牙meshSDK.
 
 ## Architecture Overview
 
-Genie BT mesh Stack支持多家芯片厂商方案，包括：telink，MTK，Nordic.
+Genie BT mesh Stack支持多家芯片厂商方案，包括：telink，MTK，Nordic, 博通.
 
 # 文档
 
