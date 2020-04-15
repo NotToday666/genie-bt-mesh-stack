@@ -44,7 +44,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
 	[HAL_PARTITION_PARAMETER_1] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
-		.partition_description		= "PARAMETER_3",
+		.partition_description		= "PARAMETER_1",
 		.partition_start_addr		= 0x0FC000,// boot information need protect
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -52,7 +52,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
     [HAL_PARTITION_PARAMETER_2] =
     {
         .partition_owner            = HAL_FLASH_EMBEDDED,
-        .partition_description      = "CUSTOM_2",
+        .partition_description      = "PARAMETER_2",
         .partition_start_addr       = 0x0FD000,
         .partition_length           = 0x1000, // 4k bytes
         .partition_options          = PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -60,7 +60,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
 	[HAL_PARTITION_PARAMETER_3] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
-		.partition_description		= "PARAMETER1",
+		.partition_description		= "PARAMETER_3",
 		.partition_start_addr		= 0x0FE000,
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -68,7 +68,7 @@ const hal_logic_partition_t hal_partitions_8M[] =
 	[HAL_PARTITION_PARAMETER_4] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
-		.partition_description		= "CUSTOM_1",
+		.partition_description		= "PARAMETER_4",
 		.partition_start_addr		= 0x0FF000,
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -112,7 +112,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
 	[HAL_PARTITION_PARAMETER_1] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
-		.partition_description		= "PARAMETER_3",
+		.partition_description		= "PARAMETER_1",
 		.partition_start_addr		= 0x07C000,// boot information need protect
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -120,7 +120,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
     [HAL_PARTITION_PARAMETER_2] =
     {
         .partition_owner            = HAL_FLASH_EMBEDDED,
-        .partition_description      = "CUSTOM_2",
+        .partition_description      = "PARAMETER_2",
         .partition_start_addr       = 0x07D000,
         .partition_length           = 0x1000, // 4k bytes
         .partition_options          = PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -128,7 +128,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
 	[HAL_PARTITION_PARAMETER_3] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
-		.partition_description		= "PARAMETER1",
+		.partition_description		= "PARAMETER_3",
 		.partition_start_addr		= 0x07E000,
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
@@ -136,7 +136,7 @@ const hal_logic_partition_t hal_partitions_4M[] =
 	[HAL_PARTITION_PARAMETER_4] =
 	{
 		.partition_owner			= HAL_FLASH_EMBEDDED,
-		.partition_description		= "CUSTOM_1",
+		.partition_description		= "PARAMETER_4",
 		.partition_start_addr		= 0x07F000,
 		.partition_length			= 0x1000, // 4k bytes
 		.partition_options			= PAR_OPT_READ_EN | PAR_OPT_WRITE_EN,
