@@ -58,8 +58,8 @@ void sys_start(void)
 
     soc_driver_init();
 
-    UINT32 param = ICU_MCU_CLK_SEL_64M;
-    sddev_control(ICU_DEV_NAME, CMD_ICU_MCU_CLK_SEL, &param);
+     UINT32 param = ICU_MCU_CLK_SEL_16M;
+    sddev_control(ICU_DEV_NAME, CMD_ICU_MCU_CLK_SEL, &param); 
 
     fclk_init(FCLK_PWM_ID, RHINO_CONFIG_TICKS_PER_SECOND);
 

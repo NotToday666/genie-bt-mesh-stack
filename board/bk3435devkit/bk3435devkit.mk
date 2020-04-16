@@ -29,8 +29,8 @@ GLOBAL_LDFLAGS += -L $(SOURCE_ROOT)/board/bk3435devkit
 EXTRA_TARGET_MAKEFILES +=  $(MAKEFILES_PATH)/aos_standard_targets.mk
 
 ifeq (, $(findstring FLASH_SIZE_8M, $(GLOBAL_DEFINES)))
-EXTRA_TARGET_MAKEFILES +=  $(SOURCE_ROOT)/platform/mcu/$(HOST_MCU_FAMILY)/gen_ota_crc_bin.mk
-else
 CONFIG_FLASH_SIZE_8M := 1
 EXTRA_TARGET_MAKEFILES +=  $(SOURCE_ROOT)/platform/mcu/$(HOST_MCU_FAMILY)/gen_ota_crc_bin_8M.mk
+else
+EXTRA_TARGET_MAKEFILES +=  $(SOURCE_ROOT)/platform/mcu/$(HOST_MCU_FAMILY)/gen_ota_crc_bin.mk
 endif
